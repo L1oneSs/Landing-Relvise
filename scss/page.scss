@@ -1,0 +1,41 @@
+$maxWidthcontainer: 1046px;
+
+.wrapper {
+    // both need
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    // need
+    height: 100%;
+    font-family: "Montserrat";
+    color: #252842;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+._container {
+    // both need
+    max-width: $maxWidthcontainer;
+    margin: 0 auto;
+    // safe
+    padding: 0px 15px;
+    box-sizing: content-box;
+}
+
+//технический класс для картинки
+//Адаптив картинки w/h*100%(применять к конкретному блоку картинки)
+._ibg {
+    position: relative;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+}

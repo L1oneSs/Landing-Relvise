@@ -1,0 +1,130 @@
+.footer__top {
+  background: #17213c;
+  padding: 35px 0;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -15px;
+}
+
+.footer__column {
+  padding: 15px 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 16.6667%;
+          flex: 0 1 16.6667%;
+}
+
+.footer__column:last-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.334%;
+          flex: 0 1 33.334%;
+}
+
+.footer__label {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0px 0px 20px 0px;
+}
+
+.menu-footer__item:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.menu-footer__link {
+  color: #fff;
+  display: inline-block;
+  line-height: 171%;
+  letter-spacing: 0.2px;
+}
+
+.menu-footer__link:hover {
+  text-decoration: underline;
+}
+
+.contacts-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts-footer__item {
+  padding: 0px 0px 0px 34px;
+  line-height: 142%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  min-height: 30px;
+}
+
+.contacts-footer__item:hover {
+  text-decoration: underline;
+}
+
+.contacts-footer__item:not(:last-child) {
+  margin: 0px 0px 12px 0px;
+}
+
+.contacts-footer__item_phone {
+  background: url("../img/fv1.svg") 0 0 no-repeat;
+}
+
+.contacts-footer__item_map {
+  background: url("../img/fv2.svg") 0 0 no-repeat;
+}
+
+.contacts-footer__item_email {
+  background: url("../img/fv3.svg") 0 0 no-repeat;
+}
+
+.footer__bottom {
+  padding: 25px 0;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__copy {
+  color: #737373;
+  line-height: 171%;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social__item:not(:last-child) {
+  margin: 0px 20px 0px 0px;
+}
